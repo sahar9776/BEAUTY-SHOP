@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  height: auto;
+  --bs-bg-opacity: 1; 
+ background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+}
+.cart{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.bsBag{
+    font-size: 28px;
+    font-weight: 600;
+    color: #ececec;
+}
+.subCart{
+    width: 21px;
+    height: 21px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 19px;
+    left: 19px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: roboto;
+  src: url(../src/assets/fonts/Roboto-Black.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: roboto;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 18px;
+}
+h3 {
+  display: inline-block;
+  border-bottom: 2px solid rgba(var(--bs-secondary-rgb), var(--bs-text-opacity));
+}
+#bgItem {
+  background: #fff;
+  color: #000;
+}
+
+#bgItem:hover {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+  color: #fff;
+}

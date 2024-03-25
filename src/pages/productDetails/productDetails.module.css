@@ -1,0 +1,25 @@
+.productDetails {
+  padding: 100px 0;
+  height: 500px;
+  margin: 100px 0;
+}
+.productDetails .boxImg {
+  cursor: pointer;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 10px !important;
+  box-shadow: 1px 1px 2px #ccc;
+  border: 1px solid #ccc;
+}
+.productDetails .boxImg:hover {
+  animation: zoom 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes zoom {
+  0% {
+    padding: 10px;
+  }
+  100% {
+    padding: 0px;
+  }
+}

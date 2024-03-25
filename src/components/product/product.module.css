@@ -1,0 +1,23 @@
+.product {
+  width: 100%;
+  height: 400px;
+
+}
+.product a{
+  text-decoration: none;
+  color: #000;
+}
+.product a:hover{
+opacity: 0.8;
+}
+.product button{
+max-width: 35px;
+height: 35px;
+}
+.product button:hover{
+opacity: 0.8;
+}
+.product p{
+  font-size: 15px;
+}
+

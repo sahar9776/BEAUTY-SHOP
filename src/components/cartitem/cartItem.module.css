@@ -1,0 +1,11 @@
+.cartItem{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+/* @media screen and (max-width:786px) {
+    .cartItem{
+      margin-bottom: 150px;
+    }
+  } */
